@@ -1,0 +1,41 @@
+> python3 demo_autoencoder_mnist.py --mnist_data_path ./ --num_epoch 10 --gamma 0.98 --num_latent_vars 2
+
+ epoch 1/10 - curr/avg acc: 0.562500/0.495400- curr/avg loss: 0.212267/0.217673->main/KL:[0.207773,0.009901], [  938/  938]
+
+ prediction - curr/avg acc: 0.875000/0.594700, [   79/   79]
+
+ epoch 2/10 - curr/avg acc: 0.625000/0.631750- curr/avg loss: 0.176994/0.204032->main/KL:[0.191633,0.012399], [  938/  938]
+
+ prediction - curr/avg acc: 0.562500/0.648300, [   79/   79]
+
+ epoch 3/10 - curr/avg acc: 0.687500/0.665733- curr/avg loss: 0.194656/0.201410->main/KL:[0.187672,0.013738], [  938/  938]
+
+ prediction - curr/avg acc: 0.625000/0.663500, [   79/   79]
+
+ epoch 4/10 - curr/avg acc: 0.781250/0.682983- curr/avg loss: 0.204230/0.199736->main/KL:[0.185853,0.013883], [  938/  938]
+
+ prediction - curr/avg acc: 0.750000/0.682300, [   79/   79]
+
+ epoch 5/10 - curr/avg acc: 0.500000/0.687867- curr/avg loss: 0.195426/0.198435->main/KL:[0.183922,0.014514], [  938/  938]
+
+ prediction - curr/avg acc: 0.750000/0.673300, [   79/   79]
+
+ epoch 6/10 - curr/avg acc: 0.781250/0.692900- curr/avg loss: 0.193867/0.197724->main/KL:[0.183047,0.014677], [  938/  938]
+
+ prediction - curr/avg acc: 0.750000/0.689500, [   79/   79]
+
+ epoch 7/10 - curr/avg acc: 0.687500/0.699900- curr/avg loss: 0.183198/0.197113->main/KL:[0.181906,0.015207], [  938/  938]
+
+ prediction - curr/avg acc: 0.937500/0.698000, [   79/   79]
+
+ epoch 8/10 - curr/avg acc: 0.750000/0.703900- curr/avg loss: 0.186950/0.196906->main/KL:[0.181224,0.015683], [  938/  938]
+
+ prediction - curr/avg acc: 0.687500/0.689200, [   79/   79]
+
+ epoch 9/10 - curr/avg acc: 0.718750/0.704633- curr/avg loss: 0.188200/0.196467->main/KL:[0.181160,0.015307], [  938/  938]
+
+ prediction - curr/avg acc: 0.812500/0.699100, [   79/   79]
+
+ epoch 10/10 - curr/avg acc: 0.781250/0.708183- curr/avg loss: 0.193470/0.195995->main/KL:[0.180209,0.015786], [  938/  938]
+
+ prediction - curr/avg acc: 0.750000/0.695800, [   79/   79]

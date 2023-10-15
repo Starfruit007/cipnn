@@ -1,0 +1,231 @@
+2023-09-14 04:18:58,526 - logger.py[line:33] - INFO: 
+
+
+-------------------------------------------------------------
+2023-09-14 04:18:58,526 - logger.py[line:34] - INFO: this is a logger info message
+2023-09-14 04:18:58,527 - logger.py[line:43] - INFO: Configured parameters: 
+num_epoch: 10
+learning_rate: 0.0001
+weight_decay: 0
+num_latent_vars: 3
+num_params: 2
+beta: 1
+gamma: [0.9]
+monte_carlo_num: 2
+data_path: ../STL10
+train_batch_size: 64
+eval_batch_size: 128
+forget_num: 3000
+stable_num: 1e-20
+save_path:  
+
+2023-09-14 04:19:14,942 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.500000/0.442200- curr/avg loss: 1.225327/1.570626->main/KL:[1.461410,0.109216], [   79/   79]
+2023-09-14 04:19:18,335 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.734375/0.707125, [   63/   63]
+2023-09-14 04:19:22,845 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 0.875000/0.817200- curr/avg loss: 0.552717/0.700822->main/KL:[0.517124,0.183698], [   79/   79]
+2023-09-14 04:19:26,224 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.828125/0.868500, [   63/   63]
+2023-09-14 04:19:30,736 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 1.000000/0.908200- curr/avg loss: 0.317781/0.464967->main/KL:[0.294474,0.170493], [   79/   79]
+2023-09-14 04:19:34,118 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.899375, [   63/   63]
+2023-09-14 04:19:38,626 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 0.875000/0.948200- curr/avg loss: 0.401858/0.357872->main/KL:[0.200985,0.156887], [   79/   79]
+2023-09-14 04:19:42,004 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.904000, [   63/   63]
+2023-09-14 04:19:46,514 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.959600- curr/avg loss: 0.208170/0.311594->main/KL:[0.158866,0.152728], [   79/   79]
+2023-09-14 04:19:49,890 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.919000, [   63/   63]
+2023-09-14 04:19:54,397 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.971800- curr/avg loss: 0.286335/0.268709->main/KL:[0.123141,0.145568], [   79/   79]
+2023-09-14 04:19:57,775 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.914750, [   63/   63]
+2023-09-14 04:20:02,285 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.976400- curr/avg loss: 0.210235/0.252037->main/KL:[0.112164,0.139873], [   79/   79]
+2023-09-14 04:20:05,662 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.918875, [   63/   63]
+2023-09-14 04:20:10,168 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.974800- curr/avg loss: 0.193680/0.248253->main/KL:[0.109222,0.139031], [   79/   79]
+2023-09-14 04:20:13,541 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.919125, [   63/   63]
+2023-09-14 04:20:18,049 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.984000- curr/avg loss: 0.145435/0.218461->main/KL:[0.084893,0.133568], [   79/   79]
+2023-09-14 04:20:21,429 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.922000, [   63/   63]
+2023-09-14 04:20:25,934 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.988600- curr/avg loss: 0.144501/0.201879->main/KL:[0.071682,0.130198], [   79/   79]
+2023-09-14 04:20:29,310 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.926625, [   63/   63]
+2023-09-14 04:20:30,499 - demo_stl10.py[line:204] - INFO: accs: [0.926625], mean: 0.926625, std: 0.0.
+2023-09-14 04:20:44,285 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.750000/0.479400- curr/avg loss: 0.986840/1.542989->main/KL:[1.438380,0.104609], [   79/   79]
+2023-09-14 04:20:47,643 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.796875/0.793875, [   63/   63]
+2023-09-14 04:20:52,131 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 0.875000/0.864400- curr/avg loss: 0.788032/0.612460->main/KL:[0.433771,0.178690], [   79/   79]
+2023-09-14 04:20:55,484 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.881375, [   63/   63]
+2023-09-14 04:20:59,974 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 0.875000/0.924600- curr/avg loss: 0.552361/0.431449->main/KL:[0.272313,0.159136], [   79/   79]
+2023-09-14 04:21:03,330 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.903625, [   63/   63]
+2023-09-14 04:21:07,817 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 1.000000/0.943800- curr/avg loss: 0.243138/0.349033->main/KL:[0.196483,0.152550], [   79/   79]
+2023-09-14 04:21:11,178 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.905625, [   63/   63]
+2023-09-14 04:21:15,666 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 0.875000/0.967600- curr/avg loss: 0.645696/0.279047->main/KL:[0.131277,0.147770], [   79/   79]
+2023-09-14 04:21:19,031 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.908500, [   63/   63]
+2023-09-14 04:21:23,519 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.965600- curr/avg loss: 0.186761/0.277349->main/KL:[0.136166,0.141183], [   79/   79]
+2023-09-14 04:21:26,876 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.915250, [   63/   63]
+2023-09-14 04:21:31,365 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.981200- curr/avg loss: 0.165441/0.228298->main/KL:[0.090921,0.137377], [   79/   79]
+2023-09-14 04:21:34,725 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.924500, [   63/   63]
+2023-09-14 04:21:39,214 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.983600- curr/avg loss: 0.233106/0.213811->main/KL:[0.082758,0.131054], [   79/   79]
+2023-09-14 04:21:42,572 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.917875, [   63/   63]
+2023-09-14 04:21:47,058 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.983000- curr/avg loss: 0.249947/0.214071->main/KL:[0.081381,0.132690], [   79/   79]
+2023-09-14 04:21:50,416 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.843750/0.932250, [   63/   63]
+2023-09-14 04:21:54,896 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.990200- curr/avg loss: 0.148268/0.185803->main/KL:[0.060021,0.125781], [   79/   79]
+2023-09-14 04:21:58,259 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.932500, [   63/   63]
+2023-09-14 04:22:00,056 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325], mean: 0.9295625000000001, std: 0.0029374999999999814.
+2023-09-14 04:22:13,834 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.500000/0.400800- curr/avg loss: 1.192193/1.681341->main/KL:[1.589322,0.092019], [   79/   79]
+2023-09-14 04:22:17,194 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.687500/0.643375, [   63/   63]
+2023-09-14 04:22:21,690 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 0.750000/0.810400- curr/avg loss: 0.898080/0.752605->main/KL:[0.576283,0.176322], [   79/   79]
+2023-09-14 04:22:25,050 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.871000, [   63/   63]
+2023-09-14 04:22:29,547 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 0.875000/0.904400- curr/avg loss: 0.819349/0.495847->main/KL:[0.321209,0.174637], [   79/   79]
+2023-09-14 04:22:32,903 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.885500, [   63/   63]
+2023-09-14 04:22:37,402 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 1.000000/0.940600- curr/avg loss: 0.263022/0.377973->main/KL:[0.219242,0.158731], [   79/   79]
+2023-09-14 04:22:40,757 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.911500, [   63/   63]
+2023-09-14 04:22:45,259 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.963600- curr/avg loss: 0.296674/0.295511->main/KL:[0.145069,0.150443], [   79/   79]
+2023-09-14 04:22:48,642 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.915750, [   63/   63]
+2023-09-14 04:22:53,189 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 0.875000/0.971600- curr/avg loss: 0.231678/0.263802->main/KL:[0.120730,0.143072], [   79/   79]
+2023-09-14 04:22:56,559 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.916875, [   63/   63]
+2023-09-14 04:23:01,058 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 0.875000/0.979400- curr/avg loss: 0.419981/0.237763->main/KL:[0.101431,0.136332], [   79/   79]
+2023-09-14 04:23:04,420 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.921875, [   63/   63]
+2023-09-14 04:23:08,925 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.974200- curr/avg loss: 0.153930/0.247043->main/KL:[0.110497,0.136545], [   79/   79]
+2023-09-14 04:23:12,282 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.918375, [   63/   63]
+2023-09-14 04:23:16,779 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.984000- curr/avg loss: 0.153503/0.213993->main/KL:[0.082104,0.131889], [   79/   79]
+2023-09-14 04:23:20,150 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.953125/0.921125, [   63/   63]
+2023-09-14 04:23:24,677 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.986000- curr/avg loss: 0.155721/0.204823->main/KL:[0.078350,0.126473], [   79/   79]
+2023-09-14 04:23:28,033 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.918250, [   63/   63]
+2023-09-14 04:23:30,830 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825], mean: 0.9257916666666667, std: 0.005847304697227789.
+2023-09-14 04:23:45,037 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.750000/0.439200- curr/avg loss: 1.212388/1.603922->main/KL:[1.493760,0.110161], [   79/   79]
+2023-09-14 04:23:48,417 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.687500/0.726500, [   63/   63]
+2023-09-14 04:23:52,914 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 1.000000/0.838600- curr/avg loss: 0.374270/0.702931->main/KL:[0.498150,0.204780], [   79/   79]
+2023-09-14 04:23:56,268 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.876500, [   63/   63]
+2023-09-14 04:24:00,770 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 0.875000/0.920400- curr/avg loss: 0.537063/0.447191->main/KL:[0.267313,0.179878], [   79/   79]
+2023-09-14 04:24:04,129 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.953125/0.904750, [   63/   63]
+2023-09-14 04:24:08,635 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 1.000000/0.945200- curr/avg loss: 0.158336/0.355111->main/KL:[0.197087,0.158024], [   79/   79]
+2023-09-14 04:24:11,986 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.903750, [   63/   63]
+2023-09-14 04:24:16,483 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.968800- curr/avg loss: 0.124917/0.283856->main/KL:[0.137706,0.146150], [   79/   79]
+2023-09-14 04:24:19,837 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.916625, [   63/   63]
+2023-09-14 04:24:24,335 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.972200- curr/avg loss: 0.184252/0.264362->main/KL:[0.123491,0.140871], [   79/   79]
+2023-09-14 04:24:27,693 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.913375, [   63/   63]
+2023-09-14 04:24:32,196 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.983200- curr/avg loss: 0.155514/0.223721->main/KL:[0.089105,0.134616], [   79/   79]
+2023-09-14 04:24:35,560 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.921375, [   63/   63]
+2023-09-14 04:24:40,056 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.981800- curr/avg loss: 0.175354/0.223480->main/KL:[0.092377,0.131103], [   79/   79]
+2023-09-14 04:24:43,414 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.914250, [   63/   63]
+2023-09-14 04:24:47,906 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.985600- curr/avg loss: 0.204623/0.206538->main/KL:[0.079890,0.126648], [   79/   79]
+2023-09-14 04:24:51,261 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.929750, [   63/   63]
+2023-09-14 04:24:55,746 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.992800- curr/avg loss: 0.224916/0.181194->main/KL:[0.055188,0.126006], [   79/   79]
+2023-09-14 04:24:59,100 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.919875, [   63/   63]
+2023-09-14 04:25:02,791 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825, 0.919875], mean: 0.9243125000000001, std: 0.005675123897325942.
+2023-09-14 04:25:16,588 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.625000/0.479600- curr/avg loss: 1.542449/1.546076->main/KL:[1.429752,0.116324], [   79/   79]
+2023-09-14 04:25:19,952 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.781250/0.770875, [   63/   63]
+2023-09-14 04:25:24,456 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 1.000000/0.851200- curr/avg loss: 0.426897/0.641469->main/KL:[0.445108,0.196361], [   79/   79]
+2023-09-14 04:25:27,813 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.869125, [   63/   63]
+2023-09-14 04:25:32,313 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 0.875000/0.916600- curr/avg loss: 0.330321/0.463977->main/KL:[0.293479,0.170498], [   79/   79]
+2023-09-14 04:25:35,673 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.881625, [   63/   63]
+2023-09-14 04:25:40,176 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 0.875000/0.942200- curr/avg loss: 0.578812/0.378026->main/KL:[0.216142,0.161885], [   79/   79]
+2023-09-14 04:25:43,537 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.893875, [   63/   63]
+2023-09-14 04:25:48,041 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.955200- curr/avg loss: 0.209409/0.337867->main/KL:[0.179554,0.158313], [   79/   79]
+2023-09-14 04:25:51,397 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.911750, [   63/   63]
+2023-09-14 04:25:55,898 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 0.875000/0.966800- curr/avg loss: 0.401253/0.287278->main/KL:[0.137753,0.149525], [   79/   79]
+2023-09-14 04:25:59,257 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.916500, [   63/   63]
+2023-09-14 04:26:03,757 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.977000- curr/avg loss: 0.176580/0.263281->main/KL:[0.119003,0.144278], [   79/   79]
+2023-09-14 04:26:07,112 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.953125/0.923875, [   63/   63]
+2023-09-14 04:26:11,614 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.981600- curr/avg loss: 0.183708/0.230817->main/KL:[0.090642,0.140175], [   79/   79]
+2023-09-14 04:26:14,975 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.928875, [   63/   63]
+2023-09-14 04:26:19,481 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 0.875000/0.988600- curr/avg loss: 0.489782/0.206273->main/KL:[0.073051,0.133222], [   79/   79]
+2023-09-14 04:26:22,840 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.922500, [   63/   63]
+2023-09-14 04:26:27,344 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.980000- curr/avg loss: 0.192809/0.225670->main/KL:[0.092090,0.133580], [   79/   79]
+2023-09-14 04:26:30,694 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.968750/0.923750, [   63/   63]
+2023-09-14 04:26:35,017 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825, 0.919875, 0.92375], mean: 0.9242000000000001, std: 0.005080969395696061.
+2023-09-14 04:26:48,877 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.875000/0.467800- curr/avg loss: 0.886842/1.604195->main/KL:[1.491159,0.113036], [   79/   79]
+2023-09-14 04:26:52,252 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.765625/0.776625, [   63/   63]
+2023-09-14 04:26:56,764 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 0.875000/0.847000- curr/avg loss: 0.392264/0.661514->main/KL:[0.459238,0.202275], [   79/   79]
+2023-09-14 04:27:00,139 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.874875, [   63/   63]
+2023-09-14 04:27:04,647 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 1.000000/0.916200- curr/avg loss: 0.235213/0.457739->main/KL:[0.279983,0.177757], [   79/   79]
+2023-09-14 04:27:08,019 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.886750, [   63/   63]
+2023-09-14 04:27:12,528 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 1.000000/0.942200- curr/avg loss: 0.191428/0.359414->main/KL:[0.199437,0.159977], [   79/   79]
+2023-09-14 04:27:15,906 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.900625, [   63/   63]
+2023-09-14 04:27:20,416 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 0.875000/0.959400- curr/avg loss: 0.282957/0.315094->main/KL:[0.159435,0.155659], [   79/   79]
+2023-09-14 04:27:23,793 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.917375, [   63/   63]
+2023-09-14 04:27:28,302 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.964200- curr/avg loss: 0.202448/0.287968->main/KL:[0.138334,0.149634], [   79/   79]
+2023-09-14 04:27:31,678 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.915250, [   63/   63]
+2023-09-14 04:27:36,187 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.979200- curr/avg loss: 0.197919/0.238870->main/KL:[0.098666,0.140204], [   79/   79]
+2023-09-14 04:27:39,563 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.923250, [   63/   63]
+2023-09-14 04:27:44,072 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.980400- curr/avg loss: 0.284011/0.228096->main/KL:[0.089890,0.138206], [   79/   79]
+2023-09-14 04:27:47,444 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.923250, [   63/   63]
+2023-09-14 04:27:51,955 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.989800- curr/avg loss: 0.139800/0.203010->main/KL:[0.068003,0.135007], [   79/   79]
+2023-09-14 04:27:55,338 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.922500, [   63/   63]
+2023-09-14 04:27:59,848 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.992400- curr/avg loss: 0.223015/0.191649->main/KL:[0.062781,0.128869], [   79/   79]
+2023-09-14 04:28:03,228 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.926000, [   63/   63]
+2023-09-14 04:28:09,484 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825, 0.919875, 0.92375, 0.926], mean: 0.9245000000000001, std: 0.004686527676933818.
+2023-09-14 04:28:23,339 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.875000/0.481000- curr/avg loss: 0.889422/1.501828->main/KL:[1.382505,0.119323], [   79/   79]
+2023-09-14 04:28:26,703 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.843750/0.756875, [   63/   63]
+2023-09-14 04:28:31,202 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 1.000000/0.835800- curr/avg loss: 0.299426/0.684497->main/KL:[0.488012,0.196485], [   79/   79]
+2023-09-14 04:28:34,565 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.845125, [   63/   63]
+2023-09-14 04:28:39,066 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 1.000000/0.908400- curr/avg loss: 0.318306/0.472976->main/KL:[0.295043,0.177933], [   79/   79]
+2023-09-14 04:28:42,432 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.882750, [   63/   63]
+2023-09-14 04:28:46,927 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 0.875000/0.942600- curr/avg loss: 0.397836/0.372106->main/KL:[0.208005,0.164101], [   79/   79]
+2023-09-14 04:28:50,297 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.907000, [   63/   63]
+2023-09-14 04:28:54,798 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.956600- curr/avg loss: 0.226539/0.318309->main/KL:[0.159033,0.159275], [   79/   79]
+2023-09-14 04:28:58,162 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.897875, [   63/   63]
+2023-09-14 04:29:02,661 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.967600- curr/avg loss: 0.230101/0.277371->main/KL:[0.124448,0.152923], [   79/   79]
+2023-09-14 04:29:06,027 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.905125, [   63/   63]
+2023-09-14 04:29:10,524 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 0.875000/0.978600- curr/avg loss: 0.468369/0.245037->main/KL:[0.101874,0.143163], [   79/   79]
+2023-09-14 04:29:13,884 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.909125, [   63/   63]
+2023-09-14 04:29:18,383 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.981000- curr/avg loss: 0.209791/0.236782->main/KL:[0.092257,0.144525], [   79/   79]
+2023-09-14 04:29:21,750 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.912250, [   63/   63]
+2023-09-14 04:29:26,245 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.987600- curr/avg loss: 0.232321/0.208459->main/KL:[0.073470,0.134989], [   79/   79]
+2023-09-14 04:29:29,606 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.922750, [   63/   63]
+2023-09-14 04:29:34,100 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.990600- curr/avg loss: 0.228529/0.201868->main/KL:[0.067529,0.134339], [   79/   79]
+2023-09-14 04:29:37,467 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.922125, [   63/   63]
+2023-09-14 04:29:43,580 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825, 0.919875, 0.92375, 0.926, 0.922125], mean: 0.9241607142857144, std: 0.004417757534389263.
+2023-09-14 04:29:57,517 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.750000/0.479200- curr/avg loss: 0.862532/1.493451->main/KL:[1.362907,0.130544], [   79/   79]
+2023-09-14 04:30:00,876 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.718750/0.746000, [   63/   63]
+2023-09-14 04:30:05,378 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 0.875000/0.846600- curr/avg loss: 0.450374/0.676424->main/KL:[0.474289,0.202135], [   79/   79]
+2023-09-14 04:30:08,733 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.812500/0.848250, [   63/   63]
+2023-09-14 04:30:13,227 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 0.875000/0.915400- curr/avg loss: 0.334390/0.463296->main/KL:[0.290397,0.172899], [   79/   79]
+2023-09-14 04:30:16,578 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.892750, [   63/   63]
+2023-09-14 04:30:21,075 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 0.875000/0.937800- curr/avg loss: 0.623924/0.386784->main/KL:[0.230161,0.156623], [   79/   79]
+2023-09-14 04:30:24,434 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.910250, [   63/   63]
+2023-09-14 04:30:28,931 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.957000- curr/avg loss: 0.293087/0.309227->main/KL:[0.159615,0.149612], [   79/   79]
+2023-09-14 04:30:32,285 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.897250, [   63/   63]
+2023-09-14 04:30:36,781 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.962600- curr/avg loss: 0.203495/0.290804->main/KL:[0.146777,0.144027], [   79/   79]
+2023-09-14 04:30:40,133 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.908750, [   63/   63]
+2023-09-14 04:30:44,629 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.980200- curr/avg loss: 0.222219/0.237190->main/KL:[0.099808,0.137382], [   79/   79]
+2023-09-14 04:30:47,988 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.917500, [   63/   63]
+2023-09-14 04:30:52,486 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.981000- curr/avg loss: 0.176449/0.221515->main/KL:[0.090244,0.131271], [   79/   79]
+2023-09-14 04:30:55,847 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.923625, [   63/   63]
+2023-09-14 04:31:00,346 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.986600- curr/avg loss: 0.148914/0.209703->main/KL:[0.078672,0.131031], [   79/   79]
+2023-09-14 04:31:03,700 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.875000/0.926000, [   63/   63]
+2023-09-14 04:31:08,194 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.982400- curr/avg loss: 0.187548/0.215997->main/KL:[0.084465,0.131531], [   79/   79]
+2023-09-14 04:31:11,554 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.843750/0.921500, [   63/   63]
+2023-09-14 04:31:13,119 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825, 0.919875, 0.92375, 0.926, 0.922125, 0.9215], mean: 0.923828125, std: 0.004225082053567131.
+2023-09-14 04:31:27,119 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.875000/0.415800- curr/avg loss: 0.951072/1.622683->main/KL:[1.527115,0.095568], [   79/   79]
+2023-09-14 04:31:30,536 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.765625/0.713625, [   63/   63]
+2023-09-14 04:31:35,098 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 0.875000/0.839400- curr/avg loss: 0.600870/0.674351->main/KL:[0.482056,0.192295], [   79/   79]
+2023-09-14 04:31:38,501 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.873625, [   63/   63]
+2023-09-14 04:31:43,047 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 1.000000/0.914200- curr/avg loss: 0.238798/0.455132->main/KL:[0.283499,0.171633], [   79/   79]
+2023-09-14 04:31:46,413 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.796875/0.883750, [   63/   63]
+2023-09-14 04:31:50,921 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 1.000000/0.949800- curr/avg loss: 0.215974/0.347484->main/KL:[0.188469,0.159015], [   79/   79]
+2023-09-14 04:31:54,382 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.915375, [   63/   63]
+2023-09-14 04:31:59,150 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.964600- curr/avg loss: 0.181476/0.296124->main/KL:[0.143721,0.152403], [   79/   79]
+2023-09-14 04:32:02,576 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.906875, [   63/   63]
+2023-09-14 04:32:07,291 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.975200- curr/avg loss: 0.148228/0.257790->main/KL:[0.113488,0.144302], [   79/   79]
+2023-09-14 04:32:10,798 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.923125, [   63/   63]
+2023-09-14 04:32:15,495 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.982200- curr/avg loss: 0.175261/0.227364->main/KL:[0.091401,0.135963], [   79/   79]
+2023-09-14 04:32:19,064 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.907500, [   63/   63]
+2023-09-14 04:32:23,805 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.981600- curr/avg loss: 0.163488/0.221441->main/KL:[0.086384,0.135056], [   79/   79]
+2023-09-14 04:32:27,464 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.923500, [   63/   63]
+2023-09-14 04:32:32,232 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.989400- curr/avg loss: 0.144320/0.204436->main/KL:[0.072099,0.132336], [   79/   79]
+2023-09-14 04:32:35,996 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.906250/0.927500, [   63/   63]
+2023-09-14 04:32:40,702 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.992600- curr/avg loss: 0.205546/0.189851->main/KL:[0.062216,0.127635], [   79/   79]
+2023-09-14 04:32:44,439 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.927625, [   63/   63]
+2023-09-14 04:32:46,385 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825, 0.919875, 0.92375, 0.926, 0.922125, 0.9215, 0.927625], mean: 0.9242500000000001, std: 0.004158324983291557.
+2023-09-14 04:33:00,832 - trainer.py[line:38] - INFO:  epoch 1/10 - curr/avg acc: 0.750000/0.488200- curr/avg loss: 1.118125/1.556014->main/KL:[1.435819,0.120195], [   79/   79]
+2023-09-14 04:33:04,596 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.791625, [   63/   63]
+2023-09-14 04:33:09,335 - trainer.py[line:38] - INFO:  epoch 2/10 - curr/avg acc: 0.750000/0.883800- curr/avg loss: 0.638242/0.582592->main/KL:[0.388438,0.194154], [   79/   79]
+2023-09-14 04:33:13,068 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.859375/0.867125, [   63/   63]
+2023-09-14 04:33:17,791 - trainer.py[line:38] - INFO:  epoch 3/10 - curr/avg acc: 1.000000/0.929800- curr/avg loss: 0.266616/0.419078->main/KL:[0.248949,0.170128], [   79/   79]
+2023-09-14 04:33:21,495 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.899750, [   63/   63]
+2023-09-14 04:33:26,319 - trainer.py[line:38] - INFO:  epoch 4/10 - curr/avg acc: 1.000000/0.953400- curr/avg loss: 0.195970/0.328925->main/KL:[0.174157,0.154768], [   79/   79]
+2023-09-14 04:33:30,082 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.828125/0.900625, [   63/   63]
+2023-09-14 04:33:34,858 - trainer.py[line:38] - INFO:  epoch 5/10 - curr/avg acc: 1.000000/0.968400- curr/avg loss: 0.222229/0.277743->main/KL:[0.127806,0.149937], [   79/   79]
+2023-09-14 04:33:38,576 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.953125/0.914375, [   63/   63]
+2023-09-14 04:33:43,304 - trainer.py[line:38] - INFO:  epoch 6/10 - curr/avg acc: 1.000000/0.974000- curr/avg loss: 0.162400/0.255520->main/KL:[0.115009,0.140511], [   79/   79]
+2023-09-14 04:33:46,978 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.916625, [   63/   63]
+2023-09-14 04:33:51,815 - trainer.py[line:38] - INFO:  epoch 7/10 - curr/avg acc: 1.000000/0.978400- curr/avg loss: 0.184437/0.237725->main/KL:[0.097743,0.139982], [   79/   79]
+2023-09-14 04:33:55,483 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.916375, [   63/   63]
+2023-09-14 04:34:00,264 - trainer.py[line:38] - INFO:  epoch 8/10 - curr/avg acc: 1.000000/0.982400- curr/avg loss: 0.168757/0.220504->main/KL:[0.085787,0.134717], [   79/   79]
+2023-09-14 04:34:03,954 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.921875/0.924375, [   63/   63]
+2023-09-14 04:34:08,751 - trainer.py[line:38] - INFO:  epoch 9/10 - curr/avg acc: 1.000000/0.990000- curr/avg loss: 0.165631/0.197865->main/KL:[0.064516,0.133350], [   79/   79]
+2023-09-14 04:34:12,363 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.937500/0.924125, [   63/   63]
+2023-09-14 04:34:17,135 - trainer.py[line:38] - INFO:  epoch 10/10 - curr/avg acc: 1.000000/0.986200- curr/avg loss: 0.226091/0.206029->main/KL:[0.076897,0.129132], [   79/   79]
+2023-09-14 04:34:20,834 - trainer.py[line:54] - INFO:  prediction - curr/avg acc: 0.890625/0.920000, [   63/   63]
+2023-09-14 04:34:22,941 - demo_stl10.py[line:204] - INFO: accs: [0.926625, 0.9325, 0.91825, 0.919875, 0.92375, 0.926, 0.922125, 0.9215, 0.927625, 0.92], mean: 0.9238250000000001, std: 0.004145856365095158.
